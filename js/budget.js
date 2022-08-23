@@ -7,8 +7,8 @@ document.getElementById("player-expense-calculate").addEventListener('click',fun
        const playerExpenseField = document.getElementById("expense-field");
        const playerExpenseString = playerExpenseField.innerText;
        const playerExpense = parseFloat(playerExpenseString);
-       const totalPlayerExpense = playerAmount;
-       playerExpenseField.innerText = playerAmount;
+       const totalPlayerExpense = playerAmount * playerList.length;
+       playerExpenseField.innerText = totalPlayerExpense;
 
        perPlayerField.value = '';
 

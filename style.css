@@ -22,6 +22,12 @@
     background-color: #015196;
     color: white;
 }
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
 .card-aside{
     height: 371px;
     width: 264px;
