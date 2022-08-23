@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- css sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- title -->
+    <title>Football Update</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+</head>
+<body>
+    <main class="g-font">
+        <header>
+            <div class="header-section bg-black text-center d-flex flex-column justify-content-center">
+                <h1 class="mb-3">Best Player of The Year</h1>
+                <p class="text-white w-50 container">The Best FIFA Men's Player is an association football award presented annually by the sport's governing body, FIFA, to the world's best men's player since 2016. The award was formerly known as the FIFA World Player of the Year, which was merged with France Football's Ballon d'Or in 2010</p>
+            </div>
+        </header>
+
+        <!-- cards -->
+        <div class="bgnd-color h-auto">
+        <section class="container d-flex">
+            <!-- player cards -->
+            <div class="container text-center w-75 margin-top">
+                <div class="row g-4">
+                  <div class="col-4">
+                    <div class="card bg-dark rounded-0 text-white" style="height: 371px; width: 264px;">
+                        <img src="images/messi.png" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Lionel Messi</h5>
+                          <p class="card-text">36 Goals 120 Assist</p>
+                          <button class="button rounded-0">SELECT</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card bg-dark rounded-0 text-white" style="height: 371px; width: 264px;">
+                        <img src="images/neymar.png" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Neymar</h5>
+                          <p class="card-text">30 Goals 150 Assist</p>
+                          <button class="button rounded-0">SELECT</button>                        
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card bg-dark rounded-0 text-white" style="height: 371px; width: 264px;">
+                        <img src="images/kylian.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Kylian Mbappe</h5>
+                          <p class="card-text">38 Goals 110 Assist</p>
+                            <button class="button rounded-0">SELECT</button>                        
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card bg-dark rounded-0 text-white" style="height: 371px; width: 264px;">
+                        <img src="images/ramos.png" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sergio Ramos</h5>
+                          <p class="card-text">25 Goals 90 Assist</p>
+                           <button class="button rounded-0 text-white">SELECT</button>                       
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card bg-dark rounded-0 text-white" style="height: 371px; width: 264px;">
+                        <img src="images/kane1.png" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hary Kane</h5>
+                          <p class="card-text">36 Goals 120 Assist</p>
+                            <button class="button rounded-0">SELECT</button>                        
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card bg-dark rounded-0 text-white" style="height: 371px; width: 264px;">
+                        <img src="./images/cr71.png" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cristiano Ronaldo</h5>
+                          <p class="card-text">36 Goals 120 Assist</p>
+                            <button class="button rounded-0">SELECT</button>                        
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            
+            <!-- side card -->
+         <div class="margin-top">
+            <div class="card-aside mb-4">
+                <h5 class="text-center text-white p-4">Selected - V</h5>
+                <ol class="text-white px-5">
+                  <li>Neymar</li>
+                </ol>
+            </div>
+            <div class="card-aside-2 text-white p-4 text-size">
+                <h5 class="text-center text-white mb-5">Budget</h5>
+                <div class="d-flex justify-content-between">
+                  <span>Per Player</span>
+                <input type="text" class="input-field">
+                </div>
+                <button class="button rounded-0 fw-bold">Calculate</button>
+                <div class="mt-4 d-flex justify-content-between">
+                  <p class="me-4">Player Expenses</p>
+                  <p><span>$</span>00</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span>Manager</span>
+                  <input type="text" class="input-field">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span>Coach</span>
+                  <input type="text" class="input-field">
+                </div>
+                <button class="button rounded-0 fw-bold mb-4">Calculate Total</button>
+                <div class="d-flex justify-content-between">
+                  <p class="me-4">Total</p>
+                  <p style="color: #ff5e19;"><span>$</span>00000</p>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    <footer>
+      <p class="text-center bgnd-color text-white p-4">Copyright@2022 All Rights Reserved</p>
+    </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="js/player-list.js"></script>
+</body>
+</html>
