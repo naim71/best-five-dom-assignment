@@ -108,25 +108,25 @@
                 <h5 class="text-center text-white mb-5">Budget</h5>
                 <div class="d-flex justify-content-between">
                   <span>Per Player</span>
-                <input type="text" class="input-field">
+                <input id="input-box" type="text" class="input-field">
                 </div>
-                <button class="button rounded-0 fw-bold">Calculate</button>
+                <button id="player-expense-calculate" class="button rounded-0 fw-bold">Calculate</button>
                 <div class="mt-4 d-flex justify-content-between">
                   <p class="me-4">Player Expenses</p>
-                  <p><span>$</span>00</p>
+                  <p>$<span  id="expense-field">00</span></p>
                 </div>
                 <div class="d-flex justify-content-between">
                   <span>Manager</span>
-                  <input type="text" class="input-field">
+                  <input id="manager-cost" type="text" class="input-field">
                 </div>
                 <div class="d-flex justify-content-between">
                   <span>Coach</span>
-                  <input type="text" class="input-field">
+                  <input id="coach-cost" type="text" class="input-field">
                 </div>
-                <button class="button rounded-0 fw-bold mb-4">Calculate Total</button>
+                <button id="total-calculation" class="button rounded-0 fw-bold mb-4">Calculate Total</button>
                 <div class="d-flex justify-content-between">
                   <p class="me-4">Total</p>
-                  <p style="color: #ff5e19;"><span>$</span>00000</p>
+                  <p style="color: #ff5e19;">$<span id="total-field">00000</span></p>
                 </div>
             </div>
         </div>
@@ -139,6 +139,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
     "></script>
+    <script src="js/utilities.js"></script>
     <script src="js/player-list.js"></script>
+    <script src="js/budget.js"></script>
 </body>
 </html>

@@ -9,16 +9,14 @@ function displayList(list){
         const li = document.createElement('li');
         li.innerText = name;
         nameList.appendChild(li);
-
     }
 }
 
 function addToList(element){
-
     const playerName = element.parentNode.children[0].innerText;
     playerList.push(playerName);
     const numOfList = playerList.length;
     document.getElementById("num-of-selected-players").innerText = numOfList;
-
     displayList(playerList);
+    return numOfList;
 }
