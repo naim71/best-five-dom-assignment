@@ -20,3 +20,7 @@ function addToList(element){
     displayList(playerList);
     return numOfList;
 }
+
+function disableButton(disable) {
+    disable.disabled =true;
+}
